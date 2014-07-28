@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- TemplateBeginEditable name="doctitle" -->
+        <title>Deerhurst.org</title>
+        <!-- TemplateEndEditable -->
+
+        <link href="css/oneColElsCtr.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/miscfunc.js"></script>
+        <!-- TemplateBeginEditable name="head" -->
+        <!-- TemplateEndEditable -->
+    </head>
+
+    <body class="oneColElsCtr" onload="MM_preloadImages('../images/home_down.png','../images/contact_down.png','../images/community_down.png','../images/links_down.png')">
+
+        <div id="wrapper">
+            <div id="banner">
+                <img src="../images/dhhouse.jpg" alt="house" class="bannerimg" /><br/>
+            </div>
+            <div id="menu">
+                <a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home','','../images/home_down.png',1)"><img src="../images/home_up.png" name="home" width="91" height="25" border="0" class="menuimg" id="home" /></a><a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('contact','','../images/contact_down.png',1)"><img src="../images/contact_up.png" name="contact" width="91" height="25" border="0" class="menuimg" id="contact" /></a><a href="community.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('community','','../images/community_down.png',1)"><img src="../images/community_up.png" name="community" width="112" height="25" border="0" class="menuimg" id="community" /></a><a href="links.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('links','','../images/links_down.png',1)"><img src="../images/links_up.png" name="links" width="91" height="25" border="0" class="menuimg" id="links" /></a>
+            </div>
+            <div id="maintop"></div>
+            <div id="mainContent">
+                <!-- TemplateBeginEditable name="mainContent" -->
+                Main content.
+                <!-- TemplateEndEditable -->
+            </div>
+            <div id="mainbot"></div>
+  
+            <div id="footer">
+                Deerhurst Civic Association.
+            </div>
+        </div>
+
+    </body>
+</html>
+

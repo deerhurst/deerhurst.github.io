@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html {
+  height: 100%;
+}
+
+body {
+    min-height: 101%;
+	font: 100% Arial, Helvetica, sans-serif;
+	background: #808080;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-image:url(/images/xbg.png);
+	background-position: center top;
+	background-repeat: repeat-y;
+}
+.oneColElsCtr #wrapper {
+	width: 820px; /*46em;*/
+	background: #FFFFFF;
+	/*margin: 0 auto; *//* the auto margins (in conjunction with a width) center the page */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	padding: 10px 0 0 20px;
+}
+
+
+.oneColElsCtr #mainContent {
+	padding: 0 25px 10px 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	float: left;
+	clear: both;
+	width: 775px;
+	background: #ffffff;
+	background-image: url(/images/mainmid.png);
+	background-position:left;
+	background-repeat: repeat-y;
+}
+
+#maintop {
+  float: left;
+  clear: both;
+  width: 800px;
+  height: 20px;
+  background-image: url(/images/maintop.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#mainbot {
+  float: left;
+  clear: both;
+  width: 800px;
+  height: 20px;
+  background-image: url(/images/mainbot.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+
+#banner {
+	width: 800px;
+	height: 156px;
+	background-image:url(/images/banner.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	/*
+	float: left;
+	clear: both;
+	*/
+	margin-bottom: 5px;
+}
+
+.bannerimg {
+   margin: 5px 0 0 375px;
+}
+
+#menu {
+   width: 800px;
+   float: left;
+   clear: both;
+   background-color: #ffffff;
+   margin-bottom: 5px;
+   padding: 2px 0;
+}
+
+.menuimg {
+  margin-right: 2px;
+}
+
+#home {
+  margin-left: 10px;
+}
+
+#footer {
+  clear: both;
+  text-align: center;
+  font-size: 75%;
+}
+
+h2, h3 {
+margin: 5px 0;
+padding: 0;
+}
+
